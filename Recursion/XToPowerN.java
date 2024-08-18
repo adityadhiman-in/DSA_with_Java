@@ -1,3 +1,5 @@
+//Stack height = n
+
 package Recursion;
 
 public class XToPowerN {
