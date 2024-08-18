@@ -48,3 +48,46 @@ Feel free to clone this repository and explore the code. Each implementation is 
 # Clone the repository
 git clone https://github.com/adityadhiman-in/DSA-with-Java.git
 ```
+
+# DSA with Java
+
+Welcome to the **DSA with Java** repository! This repository contains various data structures and algorithms implemented in Java.
+
+## Cloning the Repository
+
+`git clone https://github.com/adityadhiman-in/DSA-with-Java.git`
+
+## Usage
+
+- Navigate to the Project Directory: `cd DSA-with-Java`
+- Read the README.md File
+- Explore the Code
+- Run the Programs: `javac <filename>.java` and `java <filename>`
+
+## Contributing
+
+- Fork the Repository
+- Clone Your Forked Repository: `git clone https://github.com/your-username/DSA-with-Java.git`
+- Create a New Branch: `git checkout -b your-branch-name`
+- Make Your Changes
+- Commit Your Changes: `git add .` and `git commit -m "Description of your changes"`
+- Push Your Changes: `git push origin your-branch-name`
+- Create a Pull Request
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Contact
+
+For any questions or suggestions, feel free to contact Aditya Dhiman.
+
+## Contact
+
+Feel free to reach out if you have any questions or suggestions!
+
+- [Website](https://adityadhiman.in)
+- [GitHub](https://github.com/adityadhiman-in)
+- [LinkedIn](https://www.linkedin.com/in/adityadhiman-in)
+
+Made with ❤️ by [Aditya Dhiman](https://adityadhiman.in)
