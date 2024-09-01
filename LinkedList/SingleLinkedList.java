@@ -93,17 +93,45 @@ public class SingleLinkedList {
         return size;
     }
 
+    public void reverseIteratre() {
+        if (head == null || head.next == null) {
+            return;
+        }
+
+        Node prevNode = head;
+        Node currNode = head.next;
+        while (currNode != null) {
+            Node nextNode = currNode.next;
+            currNode.next = prevNode;
+
+            // update
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+        head.next = null;
+        head = prevNode;
+    }
+
+    public Node reverseRecursive(Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        Node newHead = reverseRecursive(head.next);
+        head.next.next = head;
+        head.next = null;
+
+        return newHead;
+    }
+
     public static void main(String[] args) {
         SingleLinkedList list = new SingleLinkedList();
         list.addFirst("a");
         list.addFirst("b");
         list.addLast("c");
         list.printList();
-        list.deleteFirst();
-        list.printList();
-        list.deleteFirst();
-        list.printList();
         System.out.println(list.getSize());
+        list.head = list.reverseRecursive(list.head);
+        list.printList();
     }
 
 }
