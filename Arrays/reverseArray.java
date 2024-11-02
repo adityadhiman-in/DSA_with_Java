@@ -4,7 +4,7 @@ import java.util.*;
 
 public class reverseArray {
 
-    public static void reverse(int[] arr) {
+    public static void reverseArr(int[] arr) {
         int i = 0, j = arr.length - 1;
         while (i < j) {
             int temp = arr[i];
@@ -26,6 +26,6 @@ public class reverseArray {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-        reverse(arr);
+        reverseArr(arr);
     }
 }
