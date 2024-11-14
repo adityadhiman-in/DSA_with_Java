@@ -25,7 +25,17 @@ public class arrayListOperation {
         // remove
         list1.remove(2);
 
+        // size
+        System.out.println(list1.size());
+
         // print the list
+        System.out.println(list1);
+
+        // clear all
+        list1.clear();
+
+        // print again
+
         System.out.println(list1);
     }
 }
