@@ -2,10 +2,6 @@
 
 Welcome to **DSA with Java**, a curated collection of data structures and algorithms implemented in Java. This repository is built for students, developers, and enthusiasts who want to master the foundational concepts of computer science by diving deep into DSA. The repository will grow daily with new algorithms and techniques, making it an ever-evolving resource for learning and practicing DSA.
 
-## Project Overview
-
-This project is aimed at providing clear and efficient implementations of various data structures and algorithms, leveraging Java's capabilities. Each day, a new concept will be added, contributing to a comprehensive guide that can be used for both learning and interview preparation.
-
 ## What is DSA?
 
 Data Structures and Algorithms (DSA) are essential tools for solving problems in computer science. Whether it's managing data, optimizing performance, or solving complex problems, DSA plays a crucial role in ensuring efficient solutions. A solid grasp of DSA is key to writing optimized code and is a critical component of coding interviews.
