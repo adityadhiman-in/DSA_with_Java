@@ -18,9 +18,6 @@ Recursion involves solving a problem by breaking it down into smaller subproblem
 
 - **Factorial.java**: Computes the factorial of a number using recursion.
 - **Fibonacci.java**: Generates the nth Fibonacci number using recursive function calls.
-- **PrintNumbers.java**: Recursively prints numbers from 1 to N.
-- **SumNNumbers.java**: Calculates the sum of numbers from 1 to N using recursion.
-- **XToPowerN.java**: Recursively computes X raised to the power of N.
 
 ### Sorting
 
